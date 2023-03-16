@@ -4,13 +4,18 @@
 /**
  * main - prints exactly and that place of art is useful
  *
- * Return: Always 0
+ * The Write() function takes three arguments:
+ * 1. The file descriptor- 0|1|2
+ * 2. The message or data to be written
+ * 3. The number of bytes to be Written
+ *
+ * Return: Always 1 (FAILURE)
  */
 
 int main(void)
 
 {
-	write(I, "and that piece of art is useful\"
+	write(2, "and that piece of art is useful\"
 - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
